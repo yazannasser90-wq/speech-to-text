@@ -1,0 +1,13 @@
+# مكتبات تطبيق مُفرِّغ الصوت — Speech to Text
+# واجهة Qt — دعم أصيل كامل للعربية واتجاه RTL (نسخة Essentials الأخف)
+PySide6-Essentials>=6.6
+faster-whisper>=1.0.3
+# تثبيت مهم: إصدارات PyAV الحديثة جدًا غير متوافقة مع faster-whisper
+av>=12,<17
+sounddevice>=0.4.7
+soundfile>=0.12.1
+numpy>=1.26
+deep-translator>=1.11.4
+requests>=2.31
+python-docx>=1.1.0
+Pillow>=10.0.0
